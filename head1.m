@@ -11,7 +11,7 @@ global rho=1.0;
 global v=0;
 global condition_v="null";
 %hydraulic conductivity
-global k=-1.0;
+global kappa=-1.0;
 %hydraulic gradient default 2.0;
 global deltah_deltag=2.0;
 
@@ -35,6 +35,25 @@ function calcP(){
 %solidpipe v perforation pipe = default null 1.0
 P=1.0;
 return P/(rho*g);
+}
+
+%related to the intrinsic permeability
+function intrinsic(){
+%Hydraulic conductivity list K:
+%Gravel            0.001-1
+%Clean Sand        10^-6-0.001
+%Silty Sand        10^-7-10^-3
+%Silt              10^-9-10^-5
+%Clay              10^-12-10^-8
+
+%the dynamic viscosity mew - default 1.0
+mew=1.0;
+
+%fluid density rho2 - default 1.0
+rho2=1.0;
+
+%kappa being the intrinsic permeability of a pore space
+kappa=(mew/(rho2*g));
 }
 
 
