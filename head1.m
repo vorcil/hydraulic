@@ -10,6 +10,23 @@ global rho=1.0;
 %velocity of fluid in aquifier/other
 global v=0;
 global condition_v="null";
+%hydraulic conductivity
+global k=-1.0;
+%hydraulic gradient default 2.0;
+global deltah_deltag=2.0;
+
+%hydraulic conductivity is a measure of of how easily a medium
+%transmits water, higher K materials transmit more easily than low 
+%k materials;
+function darcys_law(){
+%where function Q=-K*dh/ds*A
+%radius of flow crossectional area in m
+r=1.0
+%crosssectional area of flow
+var A = 2*pi*r;
+Q=-k*(deltah_deltag)*A;
+return Q;
+}
 
 %calculate bernoulli equation in terms of pressure
 pressure_head=calcP();
