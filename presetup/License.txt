@@ -1,0 +1,70 @@
+IPI2Win Single Copy Standard License
+
+Copyright  1990-2011 by Alexei A. Bobachev
+
+You should carefully read the following terms and conditions 
+before using this software. Unless you have a different license 
+agreement signed by any of the above-mentioned copyright holders 
+your use, distribution, or installation of this copy of IPI2Win indicates 
+your acceptance of this License.  
+
+If you do not agree to any of the terms of this License, then do not 
+install, distribute or use this copy of IPI2Win.
+
+This copy of IPI2Win may either be used by a single person who 
+uses the software personally on one or more computers, or installed 
+on a single workstation used nonsimultaneously by multiple people, 
+but not both. This is not a concurrent use license.
+
+You may access this copy through a network, provided that you 
+have obtained an individual IPI2Win license for each workstation that 
+will access IPI2Win through the network. 
+
+If this copy includes any Novex dongle driver installation software, 
+which is used for settling the protection environment for IPI2Win, you 
+may not alter or modify it, nor give anyone permission to do so.
+This software, and all accompanying files, data and materials, are 
+distributed "AS IS" and with no warranties of any kind, whether 
+express or implied. Good data processing procedure dictates that any 
+program be thoroughly tested with non-critical data before relying on 
+it. The user must assume the entire risk of using the program. This 
+disclaimer of warranty constitutes an essential part of the agreement.
+The above-mentioned copyright holders will, however, appreciate 
+gratefully any information on run-time errors of IPI2Win as well as 
+comments and opinions on its performance.
+
+Any liability of any of the above-mentioned copyright holders will 
+be limited exclusively to refund of purchase price. In addition, in no 
+event shall any of the above-mentioned copyright holders, or their 
+principals, shareholders, officers, employees, affiliates, contractors, 
+subsidiaries, or parent organizations, be liable for any incidental, 
+consequential, or punitive damages whatsoever relating to the use of 
+IPI2Win, or your relationship with any of the above-mentioned 
+copyright holders.
+
+In addition, in no event does any of the above-mentioned copyright 
+holders authorize you to use IPI2Win in applications or systems 
+where IPI2Win's failure to perform can reasonably be expected to 
+result in a significant physical injury, or in loss of life. Any such use 
+by you is entirely at your own risk, and you agree to hold any of the 
+above-mentioned copyright holders harmless from any claims or 
+losses relating to such unauthorized use.
+
+This Agreement is the complete statement of the Agreement 
+between the parties on the subject matter, and merges and supersedes 
+all other or prior understandings, purchase orders, agreements and 
+arrangements. This Agreement shall be governed by the laws of the 
+Russian Federation. 
+
+All rights of any kind in IPI2Win which are not expressly granted 
+in this License are entirely and exclusively reserved to and by any of 
+the above-mentioned copyright holders. You may not rent, lease, 
+modify, translate, reverse engineer, decompile, disassemble or create 
+derivative works based on IPI2Win. You may not make access to 
+IPI2Win available to others in connection with a service bureau, 
+application service provider, or similar business. There are no third 
+party beneficiaries of any promises, obligations or representations 
+made by any of the above-mentioned copyright holders herein.
+
+Copyright  1990-2005 by Alexei A. Bobachev 
+2005

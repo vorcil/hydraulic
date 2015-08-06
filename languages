@@ -1,0 +1,137 @@
+<languages>
+	<language id="ENU" installname="English (United States)" lngid="ENU">
+		<param name="Strings.1" value="%AppName% is not completely installed on your computer.[\n]Do you want to abort setup?"/>
+		<param name="Strings.2" value="Reading install information files..."/>
+		<param name="Strings.3" value="Calculation of necessary amount of disk space..."/>
+		<param name="Strings.4" value="Insufficient free disk space."/>
+		<param name="Strings.5" value="Updating registry..."/>
+		<param name="Strings.6" value="Updating ini-files..."/>
+		<param name="Strings.7" value="Creating shortcuts..."/>
+		<param name="Strings.8" value="Registering COM servers..."/>
+		<param name="Strings.9" value="Registering fonts..."/>
+		<param name="Strings.10" value="You need administrative rights on this computer to install this application."/>
+		<param name="Strings.11" value='Cannot install file "%s".'/>
+		<param name="Strings.13" value="This operating system is not supported."/>
+		<param name="Strings.14" value="Your operating system version is too old.[\n]Version %%s or newer is needed for %AppName%."/>
+		<param name="Strings.15" value="Installing %AppName% is not possible when it is running. Close the application and start the setup program again."/>
+		<param name="Strings.16" value="Removing references to the previous version..."/>
+		<param name="Strings.17" value="Removing unneeded files..."/>
+		<param name="Strings.18" value="Performing application rollback..."/>
+		<param name="Strings.19" value="Please insert a first setup disk or map network drive with file %s"/>
+		<param name="Strings.20" value='Cannot register shared file "%s".'/>
+		<param name="Strings.21" value="Another instance of %s setup is running."/>
+		<param name="Strings.22" value='File "%s" was not found on your computer. Setup is unable to proceed.[\n]If this problem persists contact the software vendor.'/>
+		<param name="Strings.23" value="Skipping file..."/>
+		<param name="Strings.24" value="Copying file..."/>
+		<param name="Uninstall.Strings.2" value="Installation package not found in selected folder."/>
+		<param name="Uninstall.Strings.3" value="You need administrative rights on this computer to uninstall or repair this application."/>
+		<param name="Uninstall.Strings.10" value="Removing file"/>
+		<param name="Uninstall.Strings.11" value="Removing registry entry"/>
+		<param name="Uninstall.Strings.12" value="Removing registry key"/>
+		<param name="Uninstall.Strings.13" value="Removing ini parameter from file"/>
+		<param name="Uninstall.Strings.14" value="Removing shortcut"/>
+		<param name="Uninstall.Strings.15" value="Removing folder"/>
+		<param name="Uninstall.Strings.16" value="Unregistering server"/>
+		<param name="Uninstall.Strings.17" value="Unregistering font"/>
+		<param name="Uninstall.Strings.18" value="Checking shared file"/>
+		<param name="Uninstall.Strings.19" value="Removing assembly"/>
+		<param name="Uninstall.Strings.20" value="Removing environment variable"/>
+	</language>
+	<language id="ENU" installname="English (United States)" lngid="ENU" pluginid="StdUI">
+		<param name="Strings.1" value="The %AppName% is not completely installed on your computer.[\n]Do you want to abort setup?"/>
+		<param name="Strings.2" value="Incorrect password!"/>
+		<param name="Strings.3" value="Removing unneeded files..."/>
+		<param name="Strings.4" value="Updating registry..."/>
+		<param name="Strings.5" value="Updating ini-files..."/>
+		<param name="Strings.6" value="Creating shortcuts..."/>
+		<param name="Strings.7" value="Registering COM servers..."/>
+		<param name="Strings.8" value="Registering fonts..."/>
+		<param name="Strings.9" value="Insufficient free disk space."/>
+		<param name="MainWindow.Caption" value="%AppName% setup"/>
+		<param name="Dialogs.Caption" value="%AppName% setup"/>
+		<param name="Dialogs.101" value="< Back"/>
+		<param name="Dialogs.102" value="Next >"/>
+		<param name="Dialogs.103" value="Cancel"/>
+		<param name="DLG_DIR.Title" value="Destination Folder"/>
+		<param name="DLG_DIR.SubTitle" value="Click Next to install the application to this folder, or click Browse to install to a different location."/>
+		<param name="DLG_DIR.105" value="Installation folder"/>
+		<param name="DLG_DIR.107" value="Browse..."/>
+		<param name="DLG_DIR.108" value="Select the destination folder where you want to install %AppName%. To install to a different location, click Browse, and select another folder."/>
+		<param name="DLG_DIR.109" value="Space required on your hard disk: %s  (available: %s)"/>
+		<param name="DLG_DIR.200" value="Select folder"/>
+		<param name="DLG_DIR.201" value="Select installation folder:"/>
+		<param name="DLG_DIR.202" value="Create..."/>
+		<param name="DLG_DIR.203" value="OK"/>
+		<param name="DLG_DIR.204" value="Cancel"/>
+		<param name="DLG_DIR.205" value="Create folder"/>
+		<param name="DLG_DIR.206" value="Name"/>
+		<param name="DLG_DIR.300" value="You've specified a folder which already exists. Perhaps some application was previously installed there.[\n\n]Are you sure that you want to install %AppName% to this folder?"/>
+		<param name="DLG_FINISH.Title" value="Installation Complete"/>
+		<param name="DLG_FINISH.SubTitle" value="The Installation Wizard has successfully installed %AppName%."/>
+		<param name="DLG_FINISH.104" value="Finish"/>
+		<param name="DLG_FINISH.106" value="%AppName% has been successfully installed.[\n]Press the Finish button to exit Setup program."/>
+		<param name="DLG_NOTFINISH.Title" value="Installation Aborted"/>
+		<param name="DLG_NOTFINISH.SubTitle"/>
+		<param name="DLG_NOTFINISH.104" value="OK"/>
+		<param name="DLG_NOTFINISH.106" value="Installation aborted. All installed components were removed via the rollback feature."/>
+		<param name="DLG_PROGRESS.Title" value="Setup Status"/>
+		<param name="DLG_PROGRESS.SubTitle"/>
+		<param name="DLG_PROGRESS.105" value="Please wait. %AppName% installation is in progress.[\n\n]If you want to interrupt installation process, press the Cancel button. But in this case correct working of the program is not guaranteed."/>
+		<param name="DLG_PROGRESS.108" value="All files"/>
+		<param name="DLG_PROGRESS.200" value="Skipping %s"/>
+		<param name="DLG_PROGRESS.201" value="Copying %s"/>
+		<param name="DLG_PROGRESS.202" value="Removing %s"/>
+		<param name="DLG_START.Title" value="Ready to Install the Program"/>
+		<param name="DLG_START.SubTitle" value="The Installation Wizard is ready to install the %AppName%."/>
+		<param name="DLG_START.105" value="You are now ready to install %AppName%.[\n\n]Press the Next button to begin the installation or the Back button to re-enter the installation information."/>
+		<param name="DLG_REBOOT.Title" value="Computer Restart"/>
+		<param name="DLG_REBOOT.SubTitle" value="Installation procedure needs to restart your system to configure the installed application."/>
+		<param name="DLG_REBOOT.105" value="Some components were not installed completely. For finishing installation it is necessary to reboot your computer."/>
+		<param name="DLG_REBOOT.106" value="Yes, reboot my computer now"/>
+		<param name="DLG_REBOOT.107" value="No, I'll reboot my computer later"/>
+		<param name="DLG_LANGUAGE.Title" value="Language Selection"/>
+		<param name="DLG_LANGUAGE.SubTitle" value="Select a language you would like the wizard to proceed with."/>
+		<param name="DLG_LANGUAGE.105" value="Choose installation language:"/>
+		<param name="DLG_WELCOME.Title" value="Welcome to the Installation Wizard"/>
+		<param name="DLG_WELCOME.SubTitle" value="This wizard will guide you through the entire %AppName% installation."/>
+		<param name="DLG_WELCOME.105" value="Welcome to the %AppName% Setup program. This program will install %AppName% on your computer.[\n\n]It is strongly recommended that you exit all Windows programs before running this Setup program. Click Cancel to quit Setup and close any programs you have running. Click Next to continue with the Setup program.[\n\n\n]WARNING: This program is protected by copyright law and international treaties.[\n\n]Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under law."/>
+		<param name="DLG_LICENSE.Title" value="License Agreement"/>
+		<param name="DLG_LICENSE.SubTitle" value="Please read the following license agreement carefully."/>
+		<param name="DLG_LICENSE.105" value="Yes"/>
+		<param name="DLG_LICENSE.106" value="No"/>
+		<param name="DLG_LICENSE.107" value="Please closely read the following license agreement. Do you accept all the terms of the following license agreement?"/>
+		<param name="DLG_LICENSE.109" value="Yes, I agree with all the terms of this license agreement"/>
+		<param name="DLG_README.Title" value="Readme Information"/>
+		<param name="DLG_README.SubTitle" value="Please read the following information about the %AppName% carefully."/>
+		<param name="DLG_README.105" value="Important information about %AppName%."/>
+		<param name="DLG_PASSWORD.Title" value="Password Required"/>
+		<param name="DLG_PASSWORD.SubTitle" value="Please enter the password to proceed with the %AppName% installation."/>
+		<param name="DLG_PASSWORD.105" value="Enter installation password:"/>
+		<param name="DLG_GROUP.Title" value="Program Group"/>
+		<param name="DLG_GROUP.SubTitle" value="Select the program group where the Installation Wizard will install application shortcuts."/>
+		<param name="DLG_GROUP.105" value="Select program group:"/>
+		<param name="DLG_FEATURES.Title" value="Select Components"/>
+		<param name="DLG_FEATURES.SubTitle" value="Choose the components Installation Wizard will install."/>
+		<param name="DLG_FEATURES.107" value="Description"/>
+		<param name="DLG_FEATURES.109" value="Space required on your hard disk: %s  (available: %s)"/>
+		<param name="DLG_INSTALLTYPE.Title" value="Setup Type"/>
+		<param name="DLG_INSTALLTYPE.SubTitle" value="Select the setup type of the application."/>
+		<param name="DLG_INSTALLTYPE.107" value="Description"/>
+		<param name="DLG_GETPACKAGE.Caption" value="Looking for a file: %s"/>
+		<param name="DLG_GETPACKAGE.102" value="OK"/>
+		<param name="DLG_GETPACKAGE.103" value="Cancel"/>
+		<param name="DLG_GETPACKAGE.104" value='File "%s" was not found. Please specify it&#x27;s location. If you are installing the application from disks - insert the disk which contains this file.'/>
+		<param name="DLG_GETPACKAGE.105" value="Folder with file"/>
+		<param name="DLG_GETPACKAGE.107" value="Browse..."/>
+		<param name="DLG_GETPACKAGE.200" value="File find"/>
+		<param name="DLG_GETPACKAGE.201" value="Select a folder with needed file:"/>
+		<param name="DLG_VERSIONCONFLICT.Caption" value="File version conflict"/>
+		<param name="DLG_VERSIONCONFLICT.101" value="The version of the file being copied is older, than the existing one on your computer. It is recommended to keep the existing file.[\n\n]Keep the existing file?"/>
+		<param name="DLG_VERSIONCONFLICT.103" value="File name:"/>
+		<param name="DLG_VERSIONCONFLICT.105" value="Located in:"/>
+		<param name="DLG_VERSIONCONFLICT.107" value="Yes"/>
+		<param name="DLG_VERSIONCONFLICT.108" value="Yes to all"/>
+		<param name="DLG_VERSIONCONFLICT.109" value="No"/>
+		<param name="DLG_VERSIONCONFLICT.110" value="No to all"/>
+	</language>
+</languages>

@@ -1,0 +1,30 @@
+[CopyFiles]
+CopyAppFiles=%InstallPath%
+
+
+[Shortcuts.Enu]
+AppGroupEnu=%AppFolder%
+
+[Shortcuts.Rus]
+AppGroupRus=%AppFolder%
+
+[RunApp]
+;Test=%InstallPath%\Ipi2win.exe,,,,'Test ipi2win',1
+
+[CopyAppFiles]
+*.*=*.*
+install.log=%SourcePath%\install.log
+
+[AppGroupEnu]
+IPI2win (Lite)=%InstallPath%\ipi2win.exe
+IPI_res3 (Lite)=%InstallPath%\ipi_res3.exe
+IPI_gate =%InstallPath%\ipi_gate.exe
+Manual=%InstallPath%\wipi_en.pdf
+IP-data=%InstallPath%\Ip_Data.doc
+Uninstall %ProgramName%=%Windows%\UnGins.exe,"%InstallPath%\install.log"
+
+[AppGroupRus]
+IPI2win (Lite) =%InstallPath%\ipi2win.exe
+IPI_gate=%InstallPath%\ipi_gate.exe
+Удалить %ProgramName%=%Windows%\UnGins.exe,"%InstallPath%\install.log"
+                                    

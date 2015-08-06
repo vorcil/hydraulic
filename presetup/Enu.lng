@@ -1,0 +1,130 @@
+
+
+// English
+
+[Strings]
+LanguageName=English (United States)
+1=The %ProgramName% is not completely installed on your computer.||Do you want to abort setup?
+2=Reading install information files...
+3=Calculation of necessary amount of disk space...
+4=Insufficient free disk space!
+5=Updating registry...
+6=Updating ini-files...
+7=Creating shortcuts...
+8=Registering COM servers...
+9=Registering fonts...
+10=For installation of this application it is necessary to have administrator rights on this computer.
+11=Can't extract file "%s".
+12=Incorrect password!
+13=This operating system is not supported!
+14=Your operating system version is too old.||Version %s or newer is needed for %ProgramName%.
+15=%ProgramName% installing is impossible when application is running. Close application and start setup program again.
+16=Removing references to the previous version...
+17=Removing unneeded files...
+
+[Dialogs]
+Caption=%ProgramName% setup
+101=< Back
+102=Next >
+103=Cancel
+
+[DLG_DIR]
+Title=Select installation directory
+105=" Installation directory "
+107=Browse...
+108=Select the destination directory where are you want to install %ProgramName%. To install into a different directory, click Browse, and select another directory.
+200=Select directory
+201=Select installation directory:
+202=Create...
+203=OK
+204=Cancel
+205=Create directory
+206=Name
+300=You've specified directory, which already exists. May be some application was installed there.||||Are you sure that you want to install %ProgramName% to this directory?
+
+[DLG_FINISH]
+Title=Installation complete
+106=%ProgramName% has been successfully installed.||||Press the OK button to exit Setup program.
+
+[DLG_NOTFINISH]
+Title=Installation aborted
+106=%ProgramName% hasn't been properly installed and will not work correctly if you try to use it.
+
+[DLG_PROGRESS]
+Title=Installing...
+105=Please wait. There is an %ProgramName% installation in progress.||||If you want to interrupt installation process, press the Cancel button. But in this case correct working of the program is not guaranteed.
+108=All files
+200=Extracting %s...
+201=Skipping %s...
+202=Copying %s...
+
+[DLG_START]
+Title=Start install
+105=You are now ready to install %ProgramName%.||||Directory -  %InstallPath%||
+
+[DLG_REBOOT]
+Title=Reboot computer?
+105=Some components were not installed completely. For finishing installation it is necessary to reboot your computer.
+106=Yes, reboot my computer now
+107=No, i'll reboot my computer later
+
+[DLG_LANGUAGE]
+Title=Choose language
+105=Choose installation language:
+
+[DLG_WELCOME]
+Title=Welcome!
+105=Welcome to the %ProgramName% Setup program. This program will install %ProgramName% on your computer.||||||This program is freeware version.
+
+[DLG_LICENSE]
+Title=License agreement
+105=Yes
+106=No
+107=Please closely read the following license agreement. Do you accept ALL the terms of the preceding license agreement?
+
+[DLG_README]
+Title=Readme information
+105=Read some important information about %ProgramName%.
+
+[DLG_PASSWORD]
+Title=Installation password
+105=Enter installation password:
+
+[DLG_GROUP]
+Title=Program group
+105=Choose program group:
+
+[DLG_VERSIONCONFLICT]
+Caption=File version conflict
+101=Copying file has the earlier version, than existing on your computer. It is recommended to keep an existing file.||||Keep existing file?
+103=File name:
+105=Located in:
+107=Yes
+108=Yes to all
+109=No
+110=No to all
+
+[Uninstall.Strings]
+1=%ProgramName% uninstall
+2=Installation log file was not specified!
+3=Installation log file %s not found!
+4=Are you sure you want to completely remove %ProgramName% and all of its components?
+5=%ProgramName% uninstall is finished.
+6=Removing files...
+7=Removing registry values...
+8=Removing registry keys...
+9=Removing ini-entries...
+10=Removing shortcuts...
+11=Removing directories...
+12=Unregistering COM servers...
+13=Unregistering fonts...
+14=Checking shared files...
+15=Remove shared file?
+16=The system indicates that the following shared file is no longer used by any programs.  If any programs are still using this file and it is removed, those programs may not function.  Are you sure you want to remove the shared file?||||Leaving this file will not harm your system.  If you are not sure what to do, it is suggested that you choose to not remove this shared component.
+17=File name:
+18=Located in:
+19=Yes
+20=Yes to all
+21=No
+22=No to all
+23=Close
